@@ -74,6 +74,7 @@ export function Weather() {
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
+        <br />
         {typeof weather.main != 'undefined' ? (
           <div className="weather-box">
             <div className="weather-box-top">
